@@ -2,11 +2,14 @@
 프레임워크란 용도에 맞는 일반적인 기능들을 보편적인 방식으로 제공한다.
 > ❗ 면접 단골 질문 중 하나인 Framework/ Library/ API 의 차이도 이해하자!
 
+## 스프링의 의미
 
 스프링은 참 다양한 의미를 가진다.
 - Spring (Framework) - 스프링 프레임워크
 - Spring (Core Framework) - 스프링 핵심 프레임 워크
 - Spring (Application Context, BeanFactory) - IOC 컨테이너
+
+## 스프링과 스프링 부트
 
 [스프링 프로젝트 공식문서](https://spring.io/projects/spring-framework) 의 소개글 첫머리와 그 특징이다.
 
@@ -32,11 +35,15 @@
 두 프로젝트에서 개발시 경험하는 스프링의 대부분의 마법같은 일이 일어난다.
 IOC, AOP, AutoConfigure, Embedded WAS ...
 
+## 스프링 애플리케이션이 실행되고 애플리케이션 컨텍스트가 준비되는 과정
+
 스프링 애플리케이션은 자바 애플리케이션이므로 `main` 메서드에 의해 시작된다.
 Spring Initializer로 프로젝트를 생성하게 되면 `SpringApplication.run` 메서드를 호출하는 코드가 달랑 한줄 있다. `run` 메서드가 의미하는 바를 간단히 정리해보자.
 
 Static 메서드 `run` 은 `SpringApplication` 객체를 생성하고 Instance 메서드 `run` 을 실행한다. 
 이때 `SpringApplication` 객체 생성 시 `Main` 클래스 정보가 `Class`  객체의 형태로 전달된다.
+
+### 1. 클래스 정보를 이용하여 실행 준비
 
 SpringApplication 의 생성자는 전달받는 Class 정보를 참고하여 여러가지 필드를 셋업한다.
 
@@ -58,6 +65,8 @@ SpringApplication 의 생성자는 전달받는 Class 정보를 참고하여 여
 	- 메인 애플리케이션 클래스를 셋업해둔다. 로깅을 위해서만 활용된다.
 	- 셋업 과정에서 더미 런타임 예외를 만들어 스택 트레이스를 순회하며 `main` 메서드를 찾는 방식으로 추론한다.
 
+### 2. 애플리케이션 컨텍스트 생성/초기화를 포함한 실행 과정
+
 셋업이후의 실질적인 `run` 메서드의 흐름은 간단히 아래의 그림과 같다.
 
 ![[SpringApplication.run.png]]
@@ -73,4 +82,4 @@ SpringApplication 의 생성자는 전달받는 Class 정보를 참고하여 여
 등이 있다.
 
 run 메서드는 생성된 ApplicationContext 를 반환하므로 main 메서드에서 이를 받아 추가적인 처리를 해줄 수도 있다.
-	e.g.) 애플리케이션 리스너 추가, 이멘트 발행, ...
+	e.g.) 애플리케이션 리스너 추가, 이벤트 발행, ...
