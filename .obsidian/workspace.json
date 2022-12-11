@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "1f0eb084f121bbaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e4eeb96d4bedcf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "442ff6a2a28f613f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "스프링 부트로 개발하는 MSA 컴포넌트/3장 스프링 애플리케이션 기본.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a225d66c39b5b26b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "816af19c5a59bd5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e8a00cce9d7b692",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "282197c1d75af1e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c372604549943072",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "562e29b490dcf8ec",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8cfa5af2407a03e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c41210579589781b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "707da1b9fe9bbf2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e149574d64ebedc0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e0a20b7186a99dd0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1b3d4b8ff3e329c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "282197c1d75af1e3",
+  "lastOpenFiles": [
+    "스프링 부트로 개발하는 MSA 컴포넌트/3장 스프링 애플리케이션 기본.md",
+    "스프링 부트로 개발하는 MSA 컴포넌트/2장 Framework and Spring Boot.md",
+    "스프링 부트로 개발하는 MSA 컴포넌트/1장 microservice architecture.md",
+    "스프링 부트로 개발하는 MSA 컴포넌트/image/toby-sns.png",
+    "README.md",
+    "스프링 부트로 개발하는 MSA 컴포넌트/README.md"
+  ]
+}
