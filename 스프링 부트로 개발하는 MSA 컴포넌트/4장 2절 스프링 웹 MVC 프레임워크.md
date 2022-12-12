@@ -10,7 +10,7 @@
 - HTTP 프로토콜을 사용하여 데이터를 주고받는 서버용 프로그래밍 스펙
 - javax.servlet.Servlet 인터페이스 형태로 Java API 에서 제공
 	- c.f. tomcat 10 이상 -> jakarta.servlet.Servlet (Java EE -> Jakarta EE 로 migrate)
-	
+	- 관련 아티클 - [링크](https://www.samsungsds.com/kr/insights/java_jakarta.html)	
 > A servlet is a small Java program that runs within a Web server. Servlets receive and respond to requests from Web clients, usually across HTTP, the HyperText Transfer Protocol
 
 
