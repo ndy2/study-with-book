@@ -8,19 +8,10 @@
     }
   ],
   "markdown:toggle-preview": [],
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "1"
     }
@@ -44,17 +35,38 @@
   "editor:toggle-code": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
-      "key": "E"
+      "key": "C"
     }
   ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "2"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
     }
   ]
 }
