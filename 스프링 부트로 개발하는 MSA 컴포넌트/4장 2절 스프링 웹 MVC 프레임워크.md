@@ -62,7 +62,7 @@ Servlet Container
 - MVC는 프레젠테이션 레이어를 위한 패턴이며 비즈니스레이어를 설명하기 위한 용도가 아님
 - 국내에서 전자정부 프레임웍 아키텍처에서 이 개념이 잘못 이해되어 MVC 패턴이 백엔드 아키텍처의 전부인 것처럼 오해되고 있음. 많은 잘못된 블로그 정보 존재
 - 즉 MVC 패턴만으로는 전체 백엔드 애플리케이션 아키텍처를 표현, 이해 할 수 없다.
-![[LayeredArchitecture_And_MVCPattern.png|500]]
+![LayeredArchitecture_And_MVCPattern.png](images/LayeredArchitecture_And_MVCPattern.png)
 
 - 내용을 보면 참 당연하면서도 누군가에게 MVC 패턴이 어떤건지 설명해보라는 질문을 받았을때 더 흥미롭고 명확하게 기존에 알던 내용을 전달 할 수 있도록 도와주는 이야기였습니다.
 

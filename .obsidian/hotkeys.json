@@ -68,5 +68,15 @@
       ],
       "key": "S"
     }
-  ]
+  ],
+  "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "workspace:goto-tab-3": []
 }
